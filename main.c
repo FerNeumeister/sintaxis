@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+/* ALGORITMO 1 */
+
 int columnIndex(char caracter)
 {
     char transitions[15] = {'0','1','2','3','4','5','6','7','8','9','.','B'}; // Transiciones
@@ -73,14 +76,3 @@ int main()
 
     return 0;
 }
-
-/*
-- Carácter a analizar: primer carácter de la cadena
-- Estado actual del autómata: estado inicial
-- Mientras haya caracteres en la cadena, repetir:
-(1) Determinar el nuevo estado actual (estado de llegada de la
-transición)
-(2) Actualizar el carácter a analizar
-- Si el último estado actual es un estado final, entonces la cadena
-procesada es una palabra del lenguaje; caso contrario, la cadena no
-pertenece al lenguaje. */
