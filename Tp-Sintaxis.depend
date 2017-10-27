@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1507425529 source:c:\users\deli\desktop\tp-sintaxis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1508361649 source:c:\users\meister-i5\repositories\tp-sintaxis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1509072194 source:c:\users\deli\desktop\tp-sintaxis-20171026t230837z-001\tp-sintaxis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
